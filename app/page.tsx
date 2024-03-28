@@ -1,5 +1,5 @@
 import { ClaimCard } from "@/components/ClaimCard";
-import { InfoCard } from "@/components/InfoCard";
+import { BalanceCard } from "@/components/BalanceCard";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
             <div className="flex justify-end">
                 <ConnectButton />
             </div>
-            <InfoCard />
+            <BalanceCard />
             <ClaimCard />
         </main>
     )
